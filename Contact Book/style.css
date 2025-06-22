@@ -1,0 +1,100 @@
+body {
+    background: url(images/abstract-white-luxury-liquid-wave-background-ai-generated-free-photo.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: cover;
+}
+
+#editForm{
+    width: 60%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: gold;
+    border: 1px solid #080404;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="file"], input[type="email"]{
+width: 50%;
+height: 40px;
+margin-bottom: 20px;
+padding: 10px;
+border: 1px solid;
+border-radius: 5px;
+}
+
+button[type="submit"]{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(233, 178, 40);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+background-color: rgb(235, 212, 81);
+}
+
+button[type="button"]{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(233, 178, 40);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover{
+background-color: rgb(235, 212, 81);
+}
+
+button{
+    width: 35%;
+    height: 10px;
+    background-color: rgb(233, 178, 40);
+    color: #fff;
+    padding: 10%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-color: rgb(235, 212, 81);
+}
+
+#avatarLabel{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#avatar{
+    display: none;
+}
+
+#homeLink{
+    width: 100%;
+    height: 40px;
+    background-color: goldenrod;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#homeLink:hover{
+    background-color: rgb(235, 212, 81);
+}
